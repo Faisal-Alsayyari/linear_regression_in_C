@@ -1,4 +1,4 @@
-This is the code I wrote in my video ["Machine learning in C was a mistake"](https://youtu.be/gqSbWMiOuFk. where I implemented simple and multiple linear regression in C without any math or machine learning libraries.
+This is the code I wrote in my video ["Machine learning in C was a mistake"](https://youtu.be/gqSbWMiOuFk) where I implemented simple and multiple linear regression in C without any math or machine learning libraries.
 
 This version includes significant improvements based on feedback and my own debugging efforts:
 
@@ -18,9 +18,9 @@ If you are usig this to learn linear regression, please know that the code curre
 	- number of epochs `EPOCHS`,
 	- etc.
 
-# Restrictions (under the original video.:
+# Restrictions (under the original video):
 - No Math/ML libraries
 - Only `assert.h`, `stdio.h`, `stdlib.h` for assert statements, printing, and memory allocation
-- No googling syntax/errors during implementation (1 exception.
+- No googling syntax/errors during implementation (1 exception)
 
 Please know that I am still quite new to C development, so I may have made a few mistakes even with the above improvements. That being said, I am very open to comments and criticism, so feel free to let me know 🙂
