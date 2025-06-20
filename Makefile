@@ -1,5 +1,5 @@
 # name of final executable
-TARGET = main
+TARGET = linear_regression
 
 # compiler
 CC = gcc
