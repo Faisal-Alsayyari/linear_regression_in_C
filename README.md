@@ -1,6 +1,6 @@
-This is the code I wrote in my video "Machine learning in C was a mistake" where I implemented simple and multiple linear regression in C without any math or machine learning libraries.
+This is the code I wrote in my video ["Machine learning in C was a mistake"](https://youtu.be/gqSbWMiOuFk) where I implemented simple and multiple linear regression in C without any math or machine learning libraries.
 
-This version includes significant improvementa based on feedback and my own debugging efforts:
+This version includes significant improvements based on feedback and my own debugging efforts:
 
 1) Proper memory management, most notably 'free()'ing dynamic allocations.
 2) corrected gradient calculations. 
@@ -11,7 +11,7 @@ This version includes significant improvementa based on feedback and my own debu
 
 ### Learning
 If you are usig this to learn linear regression, please know that the code currently sets the same weight to all input features and doesn't incorporate any noise. I highly recommend:
-a) defining different slopes for different variables, even programatically with for loops
+a) defining different slopes for different variables, even programmatically with for loops
 b) introducing noise to the data, such as by adding or subtracting a float from [0, 'MAX_NOISE']
 c) changing the:
 	i) learning rate 'alpha',
@@ -20,7 +20,7 @@ c) changing the:
 
 ### Restrictions (under the original video):
 - No Math/ML libraries
-- Only 'assert.h', 'stdio.h', 'stdlib.h' for assert statements, printing and memory allocation
+- Only 'assert.h', 'stdio.h', 'stdlib.h' for assert statements, printing, and memory allocation
 - No googling syntax/errors during implementation (1 exception)
 
-Please know that I am still quite new to C development, and so I may have made a few mistakes even with the above improvements. That being said, I am very open to comments and criticism, so feel free to let me know :)
+Please know that I am still quite new to C development, so I may have made a few mistakes even with the above improvements. That being said, I am very open to comments and criticism, so feel free to let me know :)
